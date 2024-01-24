@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <title>Green Basket</title>
+        <link rel="icon" type="image/png" href="Icons/shopping-basket.png"/>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <img id="logo" src="Icons/shopping-basket.png">
+            <div class="header-text-not-main">
+                <p id="brand-name">Green Basket</p>
+                <h2>Contact us</h2>
+            </div>
+        </div>
+
+        <div class="nav-bar">
+            <div class="date-time not-main-time">
+                <p id="date-holder"></p>
+                <p id="time-holder"></p>
+            </div>
+            <ul>
+                <li>
+                    <a href="fresh-prod.html">Fresh products</a>
+                </li>
+                <li>
+                    <a href="frozen.html">Frozen</a>
+                </li>
+                <li>
+                    <a href="pantry.html">Pantry</a>
+                </li>
+                <li>
+                    <a href="breakfast-cereal.html">Breakfast and cereal</a>
+                </li>
+                <li>
+                    <a href="baking.html">Baking</a>
+                </li>
+                <li>
+                    <a href="snacks.html">Snacks</a>
+                </li>
+                <li>
+                    <a href="candy.html">Candy</a>
+                </li>
+                <li>
+                    <a href="specialty-shops.html">Specialty shops</a>
+                </li>
+                <li>
+                    <a href="deals.html">Deals</a>
+                </li>
+                <li>
+                    <a href="account.html">My account</a>
+                </li>
+                <li>
+                    <a href="index.html">About us</a>
+                </li>
+                <li>
+                    <a class="active" href="contact.html">Contact us</a>
+                </li>
+
+            </ul>            
+        </div>
+
+        <div class="center-content short">
+
+            <div class="side">
+                <h4>Search</h4>
+                <form class="search-bar">
+                    <input type="text" id="prodSearch" placeholder="Looking for ..."/>
+                    <button type="submit">
+                        <img id="searchBtn" src="Icons/search.png" width="15px" height="15px">
+                    </button>
+                </form>
+
+                <h4>Explore</h4>                
+                <div class="filter-sort-options">
+                    <ul>
+                        <li>
+                            <a href="index.html">Trending searches</a>
+                        </li>
+                        <li>
+                            <a href="specialty-shops.html">Shop the season's harvest</a>
+                        </li>                            
+                        <li>
+                            <a href="account.html">Reorder last purchase</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="main-content">
+                <div id="main-content-form">
+                    <div id="form-heading">
+                        <h3>Get in touch with us!</h3>
+                    </div>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Jane"><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Doe"><br>                    
+                    <label for="phone">Phone num:</label>
+                    <input type="text" id="phone" name="phone" placeholder="(123)456-7890"><br>                    
+                    <label>Gender:</label>
+                    <input type="radio" id="genderF" name="gender" value="Female">
+                    <label for="genderF">Female</label>
+                    <input type="radio" id="genderM" name="gender" value="Male">
+                    <label for="genderM">Male</label>
+                    <input type="radio" id="genderO" name="gender" value="Other">
+                    <label for="genderO">Other</label><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="janedoe@gmail.com"><br>                   
+                    <label for="comment">Comments</label><br>
+                    <textarea type="text" id="comment" name="comment" rows="10" cols="40"></textarea><br>
+                    <div id="form-submit">
+                        <button id="contactSubmit" onclick="validateInputs()">Submit</button>
+                    </div>
+                </div>
+
+                <div class="main-content-info">
+                    <p>
+                    <h3>Join Our Family</h3> 
+                    
+                    We're more than just a grocery store; we're a part of your daily life. 
+                    Join our Green Basket family and experience a shopping journey like no other. 
+                    Explore, taste, and discover the world of flavors that we've carefully curated for you.
+
+
+                    <br><br>
+                    Thank you for choosing Green Basket as your grocery destination. 
+                    We look forward to serving you and becoming an integral part of your kitchen, your family, 
+                    and your community.
+
+                    <br><br>
+                    
+                    <b>Connect with us</b>                    
+                    <br>
+                    <b>Email:</b> <a href="mailto:contact@greenbasket.com">contact@greenbasket.com</a>
+                    <br>            
+                    <b>Phone:</b> (123) 456-7890
+
+                    <br><br>
+
+                    <b>Our locations</b>                    
+                    <br>
+                    Come visit us at the closest location today and let's embark on a culinary adventure together!
+                    <br>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>
+                                Area
+                            </th>
+                            <th>
+                                Address
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Richardson
+                            </td>
+                            <td>
+                                123 Main Street, Dallas, USA, 75231
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Plano
+                            </td>
+                            <td>
+                                456 South Street, Dallas, USA, 75243
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                Allen
+                            </td>
+                            <td>
+                                789 East Street, Dallas, USA, 75963
+                            </td>
+                        </tr>
+                    </table>                
+
+
+                    </p>
+                </div>
+            </div>
+
+        </div>    
+
+
+        <div class="footer">
+            <p class="facts">Swetha Malaivaiyavur Elayavalli - <b>SXM220052</b> </p>
+            <p class="facts">Hanah Susan Zachariah - <b>HXZ220000</b> </p>
+            <div class="payments contact">
+                <img class="payment-logo" src="Icons/Payment Icons/visa.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/mastercard.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/amex.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/discover.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/applePay.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/paypal.png" />
+            </div>
+        </div>
+    </body>
+    <script src="actions.js"></script>
+</html>

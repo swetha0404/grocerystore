@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <title>Green Basket</title>
+        <link rel="icon" type="image/png" href="Icons/shopping-basket.png"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <img id="logo" src="Icons/shopping-basket.png">
+            <div class="header-text-not-main">
+                <p id="brand-name">Green Basket</p>
+                <h2>Fresh Products</h2>
+            </div>  
+            <button id="cartBtn" onclick="window.location.href='cart.php';"> 
+                <img id="cartImg" src="Icons/shopping-cart.png" width="40px" />
+                <p id="cart-total-count"><b>0</b></p>
+            </button>
+
+        </div>
+
+        <div class="nav-bar">    
+            <div class="date-time not-main-time">
+                <p id="date-holder"></p>
+                <p id="time-holder"></p>
+            </div>
+            <ul>
+                <li>
+                    <a class="active" href="fresh-prod.html">Fresh products</a>
+                </li>
+                <li>
+                    <a href="frozen.html">Frozen</a>
+                </li>
+                <li>
+                    <a href="pantry.html">Pantry</a>
+                </li>
+                <li>
+                    <a href="breakfast-cereal.html">Breakfast and cereal</a>
+                </li>
+                <li>
+                    <a href="baking.html">Baking</a>
+                </li>
+                <li>
+                    <a href="snacks.html">Snacks</a>
+                </li>
+                <li>
+                    <a href="candy.html">Candy</a>
+                </li>
+                <li>
+                    <a href="specialty-shops.html">Specialty shops</a>
+                </li>
+                <li>
+                    <a href="deals.html">Deals</a>
+                </li>
+                <li>
+                    <a href="account.html">My account</a>
+                </li>
+                <li>
+                    <a href="index.html">About us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+
+            </ul>            
+        </div>
+
+        <div class="center-content">
+            <div class="side">
+
+                <h4>Search</h4>
+                <div class="search-bar">
+                    <input type="text" id="prodSearch" placeholder="Looking for ..."/>
+                    <button onclick="searchForItem()">
+                        <img id="searchBtn" src="Icons/search.png" width="15px" height="15px">
+                    </button>
+                </div>                    
+
+                <h4>Filters</h4>
+                <div class="filter-sort-options">
+                    <h5>Category</h5>
+                    <div class="dropDownBar">
+                        <input type="text" id="typeDropDown" placeholder="Select a category">
+                        <button id="dropDownBtn" onclick="openDropDown()">
+                            <img src="Icons/dropdown.png" width="10px"/>
+                        </button>    
+                    </div>
+
+                    <div id="filterDropDown" class="dropDownContent">
+                        <button onclick="showCategory('All')">Shop all</button> 
+                        <button onclick="showCategory('Veggies')">Vegetables</button>
+                        <button onclick="showCategory('Fruits')">Fruits</button> 
+                        <button onclick="showCategory('Pre-cut fruits')">Pre-cut Fruits</button>
+                        <button onclick="showCategory('Flowers')">Flowers</button> 
+                        <button onclick="showCategory('salsa and dips')">Salsa and dips</button> 
+                        <button onclick="showCategory('seasonal')">Season produce</button> 
+                        <button onclick="showCategory('new items')">New items</button> 
+                        <button onclick="showCategory('rollbacks')">Rollbacks</button> 
+                    </div>
+                    <h5>Delivery Day</h5>
+                    <input type="checkbox" id="sameDayCheck" /> Same day delivery <br>
+                    <input type="checkbox" id="nextDayCheck" /> Get it by tomorrow <br>                    
+                    <h5>Purchase options</h5>
+                    <input type="checkbox" id="onceCheck" /> Buy once <br>
+                    <input type="checkbox" id="subCheck" /> Subscribe & save <br>                    
+                </div>
+
+                <h4>Sort</h4>                
+                <div class="filter-sort-options">
+                    <h5>Price</h5>
+                    <input type="radio" id="pHLRadio" /> High to Low <br> 
+                    <input type="radio" id="pLHRadio" /> Low to High <br>
+                    <h5>Customer rating</h5>
+                    <input type="radio" id="cHLRadio" /> High to Low <br>   
+                    <input type="radio" id="cLHRadio" /> Low to High <br>
+                    <h5>Discount</h5>
+                    <input type="radio" id="dHLRadio" /> High to Low <br>   
+                    <input type="radio" id="dLHRadio" /> Low to High <br>
+                </div>
+            </div>
+    
+            <div class="main-content">
+                
+                <!-- VEGGIES -->
+                <div class="content-library Veggies">
+                    <h3 class="category heading">Veggies</h3>
+                </div>
+
+                <!-- FRUITS -->
+                <div class="content-library Fruits">
+                    <h3 class="category heading">Fruits</h3>                    
+                </div>
+
+                <!-- PRE CUT FRUITS -->
+                <div class="content-library Pre-cut fruits">
+                    <h3 class="category heading">Pre-cut fruits</h3>
+                </div>
+
+                <!-- FLOWERS -->
+                <div class="content-library Flowers">
+                    <h3 class="category heading">Flowers</h3>
+                </div>
+
+                <!-- SALSA AND DIPS -->
+                <div class="content-library salsa and dips">
+                    <h3 class="category heading">Salsa and dips</h3>
+                </div>
+
+                <!-- SEASONAL PRODUCE -->
+                <div class="content-library seasonal">
+                    <h3 class="category heading">Seasonal produce</h3>
+                </div>
+
+                <!-- NEW ITEMS -->
+                <div class="content-library new items">
+                    <h3 class="category heading">New items</h3>
+                </div>
+
+                <!-- ROLLBACKS -->
+                <div class="content-library rollbacks">
+                    <h3 class="category heading">Rollbacks</h3>
+
+                    <!-- retained just for reference
+                    <div class="cards corn">
+                        <div class="card-img">
+                            <img src="Images/corn.webp">
+                        </div>
+                        <div class="card-lower-half">
+                            <div class="card-info">
+                                <p class="card-name">Corn</p>
+                                <p class="card-price corn">$1.2/pc</p>
+                                </div>
+                            <div class="card-rating-cart">
+                                <div class="card-rating">
+                                    <img id="card-star" src="Icons/star.png" width="20px" height="20px"/>
+                                    <p id="card-rate">4.1</p>
+                                </div>
+                                <div class="card-add-to-cart">
+                                    <img class="add-cart-img" src="Icons/shopping-cart.png" width="20px" height="20px" />
+                                    <div class="cart-adder">
+                                        <button onclick="addToCart('corn')">
+                                            <img class="item-add-plus-img" src="Icons/add.png" width="10px" height="10px" />
+                                        </button>
+                                        <p class="cart-count corn">0</p>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    -->
+                </div>
+
+            </div>
+        </div>    
+
+        <div class="footer">
+            <p class="facts">Swetha Malaivaiyavur Elayavalli - <b>SXM220052</b> </p>
+            <p class="facts">Hanah Susan Zachariah - <b>HXZ220000</b> </p>
+            <div class="payments">
+                <img class="payment-logo" src="Icons/Payment Icons/visa.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/mastercard.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/amex.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/discover.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/applePay.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/paypal.png" />
+            </div>
+        </div>
+    </body>
+    <script src="actions.js"></script>
+</html>

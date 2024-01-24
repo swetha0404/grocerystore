@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <title>Green Basket</title>
+        <link rel="icon" type="image/png" href="Icons/shopping-basket.png"/>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <img id="logo" src="Icons/shopping-basket.png">
+            <div class="header-text-not-main">
+                <p id="brand-name">Green Basket</p>
+                <h2>Account details</h2>
+            </div>
+        </div>
+
+        <div class="nav-bar">
+            <div class="date-time not-main-time">
+                <p id="date-holder"></p>
+                <p id="time-holder"></p>
+            </div>
+            <ul>
+                <li>
+                    <a href="fresh-prod.html">Fresh products</a>
+                </li>
+                <li>
+                    <a href="frozen.html">Frozen</a>
+                </li>
+                <li>
+                    <a href="pantry.html">Pantry</a>
+                </li>
+                <li>
+                    <a href="breakfast-cereal.html">Breakfast and cereal</a>
+                </li>
+                <li>
+                    <a href="baking.html">Baking</a>
+                </li>
+                <li>
+                    <a href="snacks.html">Snacks</a>
+                </li>
+                <li>
+                    <a href="candy.html">Candy</a>
+                </li>
+                <li>
+                    <a href="specialty-shops.html">Specialty shops</a>
+                </li>
+                <li>
+                    <a href="deals.html">Deals</a>
+                </li>
+                <li>
+                    <a class="active" href="account.html">My account</a>
+                </li>
+                <li>
+                    <a href="index.html">About us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+
+            </ul>            
+        </div>
+
+        <div class="center-content short">
+
+            <div class="side">
+                <h4>Search</h4>
+                    <form class="search-bar">
+                        <input type="text" id="prodSearch" placeholder="Looking for ..."/>
+                        <button type="submit">
+                            <img id="searchBtn" src="Icons/search.png" width="15px" height="15px">
+                        </button>
+                    </form>
+    
+                    <h4>Explore</h4>                
+                    <div class="filter-sort-options">
+                        <ul>
+                            <li>
+                                <a href="index.html">Trending searches</a>
+                            </li>
+                            <li>
+                                <a href="specialty-shops.html">Shop the season's harvest</a>
+                            </li>                            
+                            <li>
+                                <a href="account.html">Reorder last purchase</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+    
+            <div class="main-content">
+
+                <!--
+                <button type="submit" id="account-edit">
+                    Edit
+                </button>
+
+                <div class="main-content-info">
+                    <p>
+                    <h3>Account Details</h3> 
+                                         
+                    <b>Name:</b> Person Lastname                 
+                    <br>
+                    <b>Email:</b> <a href="mailto:person@gmail.com">person@gmail.com</a>
+                    <br>            
+                    <b>Phone:</b> (123) 456-7890
+                    <br>
+                    <br>
+                           
+                    <h3>Delivery addresses</h3>
+                    <dl>
+                        <dt><strong>Home</strong> - <em>Default</em></dt>
+                        <dd>
+                            123 Main Street
+                            <br>
+                            Dallas, USA, 75231</dd>
+                        <dt><strong>Work</strong></dt>
+                        <dd>
+                            456 South Street
+                            <br>
+                            Dallas, USA, 75231</dd>
+                        </dd>
+                    </dl>
+                    </p>
+                </div>
+
+                --->
+
+                <div class="container p-3 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Login page</div>
+                            <div class="panel-body">
+        
+                                <form method=POST action=dologin.php>
+        
+                                    <div class="form-group">
+                                        <label>Username:</label>
+                                        <input type="text" class="form-control" autocomplete=off required name="username"/>
+                                    </div>
+        
+                                    <div class="form-group">
+                                        <label>Password:</label>
+                                        <input type="password" class="form-control"  required name="pass"/>
+                                    </div>
+        
+        
+                                    <div class="form-group">
+                                        <label></label>
+                                        <input type="submit" name="Submit" class="btn btn-primary" value="Login"/>
+                                    </div>
+        
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+        </div>    
+
+        <div class="footer">
+            <p class="facts">Swetha Malaivaiyavur Elayavalli - <b>SXM220052</b> </p>
+            <p class="facts">Hanah Susan Zachariah - <b>HXZ220000</b> </p>
+            <div class="payments">
+                <img class="payment-logo" src="Icons/Payment Icons/visa.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/mastercard.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/amex.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/discover.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/applePay.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/paypal.png" />
+            </div>
+        </div>
+    </body>
+    <script src="actions.js"></script>
+</html>

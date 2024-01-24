@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <title>Green Basket</title>
+        <link rel="icon" type="image/png" href="Icons/shopping-basket.png"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <img id="logo" src="Icons/shopping-basket.png">
+            <div class="header-text-not-main">
+                <p id="brand-name">Green Basket</p>
+                <h2>Pantry</h2>
+            </div>
+            <button id="cartBtn" onclick="window.location.href='cart.php';"> 
+                <img id="cartImg" src="Icons/shopping-cart.png" width="40px" />
+                <p id="cart-total-count"><b>0</b></p>
+            </button>
+        </div>
+
+        <div class="nav-bar">
+            <div class="date-time not-main-time">
+                <p id="date-holder"></p>
+                <p id="time-holder"></p>
+            </div>
+            <ul>
+                <li>
+                    <a href="fresh-prod.html">Fresh products</a>
+                </li>
+                <li>
+                    <a href="frozen.html">Frozen</a>
+                </li>
+                <li>
+                    <a class="active" href="pantry.html">Pantry</a>
+                </li>
+                <li>
+                    <a href="breakfast-cereal.html">Breakfast and cereal</a>
+                </li>
+                <li>
+                    <a href="baking.html">Baking</a>
+                </li>
+                <li>
+                    <a href="snacks.html">Snacks</a>
+                </li>
+                <li>
+                    <a href="candy.html">Candy</a>
+                </li>
+                <li>
+                    <a href="specialty-shops.html">Specialty shops</a>
+                </li>
+                <li>
+                    <a href="deals.html">Deals</a>
+                </li>
+                <li>
+                    <a href="account.html">My account</a>
+                </li>
+                <li>
+                    <a href="index.html">About us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+
+            </ul>            
+        </div>
+
+        <div class="center-content">
+
+            <div class="side">
+
+                <h4>Search</h4>
+                <form class="search-bar">
+                    <input type="text" id="prodSearch" placeholder="Looking for ..."/>
+                    <button type="submit">
+                        <img id="searchBtn" src="Icons/search.png" width="15px" height="15px">
+                    </button>
+                </form>                    
+
+                <h4>Filters</h4>
+                <div class="filter-sort-options">
+                    <h5>Category</h5>
+                    <div class="dropDownBar">
+                        <input type="text" id="typeDropDown" placeholder="Select a category">
+                        <button id="dropDownBtn" onclick="openDropDown()">
+                            <img src="Icons/dropdown.png" width="10px"/>
+                        </button>    
+                    </div>
+
+                    <div id="filterDropDown" class="dropDownContent">
+                        <button onclick="showCategory('All')">Shop all</button> 
+                        <button onclick="showCategory('Canned goods')">Canned goods</button>
+                        <button onclick="showCategory('Canned vegetables')">Canned vegetables</button> 
+                        <button onclick="showCategory('Condiments')">Condiments</button>
+                        <button onclick="showCategory('Peanut butter & spread')">Peanut butter & spread</button> 
+                        <button onclick="showCategory('Pasta & Pizza')">Pasta & Pizza</button> 
+                        <button onclick="showCategory('Rollbacks')">Rollbacks</button> 
+                    </div>
+
+                    <h5>Delivery Day</h5>
+                    <input type="checkbox" id="sameDayCheck" /> Same day delivery <br>
+                    <input type="checkbox" id="nextDayCheck" /> Get it by tomorrow <br>                    
+                    <h5>Purchase options</h5>
+                    <input type="checkbox" id="onceCheck" /> Buy once <br>
+                    <input type="checkbox" id="subCheck" /> Subscribe & save <br>                    
+                </div>
+
+                <h4>Sort</h4>                
+                <div class="filter-sort-options">
+                    <h5>Price</h5>
+                    <input type="radio" id="pHLRadio" /> High to Low <br> 
+                    <input type="radio" id="pLHRadio" /> Low to High <br>
+                    <h5>Customer rating</h5>
+                    <input type="radio" id="cHLRadio" /> High to Low <br>   
+                    <input type="radio" id="cLHRadio" /> Low to High <br>
+                    <h5>Discount</h5>
+                    <input type="radio" id="dHLRadio" /> High to Low <br>   
+                    <input type="radio" id="dLHRadio" /> Low to High <br>
+                </div>
+            </div>
+    
+            <div class="main-content">
+
+                <!-- CANNED GOODS -->
+                <div class="content-library Canned goods">
+                    <h3 class="category heading">Canned goods</h3>
+                </div>
+
+                <!-- CANNED VEGETABLES -->
+                <div class="content-library Canned vegetables">
+                    <h3 class="category heading">Canned vegetables</h3>
+                </div>
+
+                <!-- CONDIMENTS -->
+                <div class="content-library Condiments">
+                    <h3 class="category heading">Condiments</h3>
+                </div>
+
+                <!-- PEANUT BUTTER AND SPREADS -->
+                <div class="content-library Peanut butter & spread">
+                    <h3 class="category heading">Peanut butter & spread</h3>
+                </div>
+
+                <!-- PASTA AND PIZZA -->
+                <div class="content-library Pasta & Pizza">
+                    <h3 class="category heading">Pasta & Pizza</h3>
+                </div>
+
+                <!-- ROLLBACKS -->
+                <div class="content-library Rollbacks">
+                    <h3 class="category heading">Rollbacks</h3>
+                </div>
+
+            <!-- END MAIN CONTENT -->
+            </div>
+        <!-- END BODY -->
+        </div>    
+
+        <div class="footer">
+            <p class="facts">Swetha Malaivaiyavur Elayavalli - <b>SXM220052</b> </p>
+            <p class="facts">Hanah Susan Zachariah - <b>HXZ220000</b> </p>
+            <div class="payments">
+                <img class="payment-logo" src="Icons/Payment Icons/visa.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/mastercard.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/amex.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/discover.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/applePay.png" />
+                <img class="payment-logo" src="Icons/Payment Icons/paypal.png" />
+            </div>
+        </div>
+    </body>
+    <script src="actions.js"></script>
+</html>
