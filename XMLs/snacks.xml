@@ -1,0 +1,70 @@
+<inventory>
+
+    <!--CHIPS-->
+    <item>
+        <name>Cheetos</name>
+        <price>$2.10/pc</price>
+        <category>Chips</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/chips/cheetos.jpeg</img_path>
+    </item>
+    <item>
+        <name>Doritos</name>
+        <price>$2.85/pc</price>
+        <category>Chips</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/chips/doritos.jpg</img_path>
+    </item>
+    <item>
+        <name>Lays</name>
+        <price>$3.83/pc</price>
+        <category>Chips</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/chips/lays.webp</img_path>
+    </item>
+    <item>
+        <name>Ruffles</name>
+        <price>$2.83/pc</price>
+        <category>Chips</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/chips/ruffles.webp</img_path>
+    </item>
+
+    <!--TRAIL MIX-->    
+    <item>
+        <name>Trail Mix</name>
+        <price>$3.23/pc</price>
+        <category>Trail Mix and Bars</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/bars/trail_mix.jpg</img_path>
+    </item>
+    <item>
+        <name>Protein Bar</name>
+        <price>$2.10/lb</price>
+        <category>Trail Mix and Bars</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/bars/protein_bar.webp</img_path>
+    </item>
+    <item>
+        <name>Cereal Bar</name>
+        <price>$2.65/pc</price>
+        <category>Trail Mix and Bars</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/bars/cereal_bar.jpeg</img_path>
+    </item>
+
+</inventory>

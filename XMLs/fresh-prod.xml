@@ -1,0 +1,189 @@
+<inventory>
+
+    <!--VEGGIES-->
+    <item>
+        <name>Carrot</name>
+        <price>$2.10/lb</price>
+        <category>Veggies</category>
+        <rating>4.1</rating>
+        <stock>16</stock>
+        <cart>0</cart>
+        <img_path>Images/carrot.jpg</img_path>
+    </item>
+    <item>
+        <name>Tomato</name>
+        <price>$0.85/lb</price>
+        <category>Veggies</category>
+        <rating>4.1</rating>
+        <stock>15</stock>
+        <cart>0</cart>
+        <img_path>Images/tomato.jpg</img_path>
+    </item>
+    <item>
+        <name>Onion</name>
+        <price>$3.83/lb</price>
+        <category>Veggies</category>
+        <rating>4.1</rating>
+        <stock>18</stock>
+        <cart>0</cart>
+        <img_path>Images/onion.jpg</img_path>
+    </item>
+    <item>
+        <name>Potato</name>
+        <price>$4.20/lb</price>
+        <category>Veggies</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/potato.jpg</img_path>
+    </item>
+
+    <!--FRUITS-->    
+    <item>
+        <name>Apple</name>
+        <price>$4.23/lb</price>
+        <category>Fruits</category>
+        <rating>4.1</rating>
+        <stock>17</stock>
+        <cart>0</cart>
+        <img_path>Images/apple.jpg</img_path>
+    </item>
+    <item>
+        <name>Mango</name>
+        <price>$6.10/lb</price>
+        <category>Fruits</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/mango.jpg</img_path>
+    </item>
+    <item>
+        <name>Banana</name>
+        <price>$0.65/lb</price>
+        <category>Fruits</category>
+        <rating>4.1</rating>
+        <stock>19</stock>
+        <cart>0</cart>
+        <img_path>Images/banana.jpg</img_path>
+    </item>
+
+    <!--PRECUT-FRUITS-->
+    <item>
+        <name>Pineapple</name>
+        <price>$0.6/lb</price>
+        <category>Pre-cut fruits</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/pineapple.webp</img_path>
+    </item>
+    <item>
+        <name>Melon</name>
+        <price>$0.85/lb</price>
+        <category>Pre-cut fruits</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/melon.webp</img_path>
+    </item>
+
+    <!--FLOWERS-->
+    <item>
+        <name>Rose</name>
+        <price>$1.2/pc</price>
+        <category>Flowers</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/rose.webp</img_path>
+    </item>
+    <item>
+        <name>Lilies</name>
+        <price>$2.10/pc</price>
+        <category>Flowers</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/lillies.webp</img_path>
+    </item>
+
+    <!--SALSA AND DIPS-->    
+    <item>
+        <name>Salsa Verde</name>
+        <price>$12.20/pc</price>
+        <category>salsa and dips</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/salsa_verde.webp</img_path>
+    </item>
+    <item>
+        <name>Salsa Casera</name>
+        <price>$17.36/pc</price>
+        <category>salsa and dips</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/salsa_casera.webp</img_path>
+    </item>
+    <item>
+        <name>Con Queso</name>
+        <price>$14.76/pc</price>
+        <category>salsa and dips</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/salsa_con_queso.webp</img_path>
+    </item>
+
+    <!--SEASONAL PRODUCE-->    
+    <item>
+        <name>Pumpkin</name>
+        <price>$3.4/lb</price>
+        <category>seasonal</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/specials/pumpkin.jpg</img_path>
+    </item>
+    <item>
+        <name>Artichokes</name>
+        <price>$2.85/lb</price>
+        <category>seasonal</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/artichoke.webp</img_path>
+    </item>
+
+    <!--NEW ITEMS (FRESH PRODUCTS)-->    
+    <item>
+        <name>Chestnuts</name>
+        <price>$6.32/lb</price>
+        <category>new items</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/chestnut.webp</img_path>
+    </item>
+    <item>
+        <name>Celery</name>
+        <price>$0.43/pc</price>
+        <category>new items</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/celery.webp</img_path>
+    </item>
+
+    <!--ROLLBACKS (FRESH PRODUCTS)-->
+    <item>
+        <name>Corn</name>
+        <price>$1.2/pc</price>        
+        <category>rollbacks</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/corn.webp</img_path>
+    </item>
+</inventory>

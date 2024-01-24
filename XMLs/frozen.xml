@@ -1,0 +1,178 @@
+<inventory>
+
+    <!--FROZEN BREAKFAST-->
+    <item>
+        <name>Breakfast bowl</name>
+        <price>$2.10/pc</price>
+        <category>Frozen breakfast</category>
+        <rating>4.1</rating>
+        <stock>8</stock>
+        <cart>0</cart>
+        <img_path>Images/breakfast_bowl.webp</img_path>
+    </item>
+    <item>
+        <name>Waffles</name>
+        <price>$4.20/pc</price>
+        <category>Frozen breakfast</category>
+        <rating>4.1</rating>
+        <stock>10</stock>
+        <cart>0</cart>
+        <img_path>Images/waffles.webp</img_path>
+    </item>
+
+    <!--FROZEN DESERT--> 
+    <item>
+        <name>Cheesecake</name>
+        <price>$7.12/pc</price>
+        <category>Frozen desert</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/cheesecake.webp</img_path>
+    </item>
+    <item>
+        <name>Fruit bars</name>
+        <price>$5.64/pc</price>
+        <category>Frozen desert</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/fruit_bars.webp</img_path>
+    </item>
+
+    <!--FROZEN MEALS-->    
+    <item>
+        <name>Lasagna</name>
+        <price>$7.12/pc</price>
+        <category>Frozen meals</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/lasagna.webp</img_path>
+    </item>
+    <item>
+        <name>Beek Teriyaki</name>
+        <price>$5.64/pc</price>
+        <category>Frozen meals</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/beef teriyaki.webp</img_path>
+    </item>
+    <!--FROZEN PIZZA-->
+    <item>
+        <name>Pepperoni</name>
+        <price>$7.12/pc</price>
+        <category>Frozen pizza</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/pepperoni_pizza.webp</img_path>
+    </item>
+
+    <item>
+        <name>Supreme</name>
+        <price>$5.64/pc</price>
+        <category>Frozen pizza</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/supreme_pizza.webp</img_path>
+    </item>
+    <item>
+        <name>Thin crust</name>
+        <price>$5.64/pc</price>
+        <category>Frozen pizza</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/thin_crust_pizza.webp</img_path>
+    </item>
+
+    <!--FROZEN MEAT-->
+    <item>
+        <name>Chicken</name>
+        <price>$7.12/lb</price>
+        <category>Frozen meat</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/chicken.jpeg</img_path>
+    </item>
+    <item>
+        <name>Ground bee</name>
+        <price>$5.64/lb</price>
+        <category>Frozen meat</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/beef.jpeg</img_path>
+    </item>   
+    <item>
+        <name>Tuna</name>
+        <price>$5.64/lb</price>
+        <category>Frozen meat</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/tuna.jpg</img_path>
+    </item>
+    <item>
+        <name>Shrimp</name>
+        <price>$5.64/lb</price>
+        <category>Frozen meat</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/shrimp.jpg</img_path>
+    </item>
+    
+    <!--FROZEN SNACKS-->    
+    <item>
+        <name>Pizza Rolls</name>
+        <price>$12.4/pc</price>
+        <category>Frozen snacks</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/pizza_rolls.webp</img_path>
+    </item>
+    <item>
+        <name>Chicken Nuggets</name>
+        <price>$5.64/pc</price>
+        <category>Frozen snacks</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/chicken_nuggets.webp</img_path>
+    </item>
+    <item>
+        <name>Onion Rings</name>
+        <price>$7.32/pc</price>
+        <category>Frozen snacks</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/onion_rings.webp</img_path>
+    </item>
+
+    <!--ROLLBACKS (FRESH PRODUCTS)-->
+    <item>
+        <name>Apple</name>
+        <price>$2.13/pc</price>        
+        <category>Rollbacks</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/apple_pie.webp</img_path>
+    </item>
+    <item>
+        <name>Fries</name>
+        <price>$1.89/pc</price>        
+        <category>Rollbacks</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/fries.webp</img_path>
+    </item>
+</inventory>
