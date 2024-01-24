@@ -1,0 +1,83 @@
+{
+  "Pumpkin Pie": {
+    "price": "$2.10/pc",
+    "ref_name": "pumpkin_pie_filling",
+    "category": "Pie Fillings",
+    "rating": 4.1,
+    "stock": 17,
+    "cart": 0,
+    "img_path": "Images/pumpkin_pie_filling.webp"
+  },
+  "Cherry Pie": {
+    "price": "$2.10/pc",
+    "ref_name": "cherry_pie_filling",
+    "category": "Pie Fillings",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/cherry_pie_filling.webp"
+  },
+  "Graham Pie": {
+    "price": "$4.20/pc",
+    "ref_name": "graham_pie_crust",
+    "category": "Crusts",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/graham_pie_crust.webp"
+  },
+  "Pecan Pie": {
+    "price": "$2.10/pc",
+    "ref_name": "pecan_pie_crust",
+    "category": "Crusts",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/pecan_pie_crust.webp"
+  },
+  "Vanilla mix": {
+    "price": "$2.10/pc",
+    "ref_name": "vanilla_mix",
+    "category": "Pudding mixes",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/vanilla_pudding_mix.webp"
+  },
+  "Chocolate mix": {
+    "price": "$4.20/pc",
+    "ref_name": "chocolate_mix",
+    "category": "Pudding mixes",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/chocolate_pudding_mix.webp"
+  },
+  "Cheesecake mix": {
+    "price": "$2.10/pc",
+    "ref_name": "cheesecake_mix",
+    "category": "Pudding mixes",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/cheesecake_pudding_mix.webp"
+  },
+  "Foil pie pan": {
+    "price": "$2.10/pc",
+    "ref_name": "foil_pie_pan",
+    "category": "Pie Pans",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/foil_pie_pan.webp"
+  },
+  "Aluminum pan": {
+    "price": "$2.10/pc",
+    "ref_name": "aluminium_pie_pan",
+    "category": "Pie Pans",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/aluminum_pie_pan.jpeg"
+  }
+}
