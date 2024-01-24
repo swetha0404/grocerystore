@@ -1,0 +1,70 @@
+<inventory>
+
+    <!--SOUR CANDY-->
+    <item>
+        <name>Skittles</name>
+        <price>$2.10/pc</price>
+        <category>Sour Candy</category>
+        <rating>4.1</rating>
+        <stock>17</stock>
+        <cart>0</cart>
+        <img_path>Images/sour/skittles.webp</img_path>
+    </item>
+    <item>
+        <name>Sour Patch</name>
+        <price>$5.85/pc</price>
+        <category>Sour Candy</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/sour/sour_patch.webp</img_path>
+    </item>
+    <item>
+        <name>Warheads</name>
+        <price>$3.83/pc</price>
+        <category>Sour Candy</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/sour/warheads.webp</img_path>
+    </item>
+
+    <!--CHOCOLATES-->    
+    <item>
+        <name>Ghiradelli</name>
+        <price>$4.23/pc</price>
+        <category>Chocolates</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/choco/ghiradelli.jpg</img_path>
+    </item>
+    <item>
+        <name>Milky Way</name>
+        <price>$6.10/lb</price>
+        <category>Chocolates</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/choco/milky_way.webp</img_path>
+    </item>
+    <item>
+        <name>Hershey's kisses</name>
+        <price>$2.65/pc</price>
+        <category>Chocolates</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/choco/hersheys.webp</img_path>
+    </item>
+
+    <item>
+        <name>Mars</name>
+        <price>$2.10/pc</price>
+        <category>Chocolates</category>
+        <rating>4.1</rating>
+        <stock>20</stock>
+        <cart>0</cart>
+        <img_path>Images/choco/mars.jpg</img_path>
+    </item>
+</inventory>
