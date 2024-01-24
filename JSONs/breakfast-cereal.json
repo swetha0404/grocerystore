@@ -1,0 +1,146 @@
+{
+  "Cheerios": {
+    "price": "$2.10/pc",
+    "ref_name": "cheerios",
+    "category": "Cereal shop",
+    "rating": 4.1,
+    "stock": 17,
+    "cart": 0,
+    "img_path": "Images/cereals/cheerios.webp"
+  },
+  "Lucky Charms": {
+    "price": "$2.10/pc",
+    "ref_name": "lucky_charms",
+    "category": "Cereal shop",
+    "rating": 4.1,
+    "stock": 17,
+    "cart": 0,
+    "img_path": "Images/cereals/lucky charms.jpg"
+  },
+  "Fruit Loops": {
+    "price": "$4.20/pc",
+    "ref_name": "fruit_loops",
+    "category": "Cereal shop",
+    "rating": 4.1,
+    "stock": 13,
+    "cart": 0,
+    "img_path": "Images/cereals/fruit loops.avif"
+  },
+  "Buttermillk Pancakes": {
+    "price": "$2.10/pc",
+    "ref_name": "buttermilk_pancakes",
+    "category": "Pancakes and Waffles",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/buttermilk_pancakes.webp"
+  },
+  "Mini Pancakes": {
+    "price": "$2.10/pc",
+    "ref_name": "mini_pancakes",
+    "category": "Pancakes and Waffles",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/mini_pancakes.webp"
+  },
+  "Blueberry Waffles": {
+    "price": "$4.20/pc",
+    "ref_name": "blueberry_waffles",
+    "category": "Pancakes and Waffles",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/blueberry_waffles.webp"
+  },
+  "White Bread": {
+    "price": "$2.10/pc",
+    "ref_name": "white_bread",
+    "category": "Breakfast Breads",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/bread/white_bread.jpg"
+  },
+  "Brown Bread": {
+    "price": "$2.10/pc",
+    "ref_name": "brown_bread",
+    "category": "Breakfast Breads",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/bread/brown_bread.jpg"
+  },
+  "Garlic Bread": {
+    "price": "$2.10/pc",
+    "ref_name": "garlic_bread",
+    "category": "Breakfast Breads",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/bread/garlic_bread.jpg"
+  },
+  "Multigrain Bread": {
+    "price": "$2.10/pc",
+    "ref_name": "multigrain_bread",
+    "category": "Breakfast Breads",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/bread/mulitgrain_bread.jpg"
+  },
+  "Instant oats": {
+    "price": "$2.10/pc",
+    "ref_name": "instant_oats",
+    "category": "Oatmeal and Grits",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/instant_breakfast/classic-oats.png"
+  },
+  "Rolled Oats": {
+    "price": "$4.20/pc",
+    "ref_name": "rolled_oats",
+    "category": "Oatmeal and Grits",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/rolled_oat.webp"
+  },
+  "Instant Grits": {
+    "price": "$4.20/pc",
+    "ref_name": "instant_grits",
+    "category": "Oatmeal and Grits",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/instant_grits.webp"
+  },
+  "Butter Grits": {
+    "price": "$4.20/pc",
+    "ref_name": "butter_grits",
+    "category": "Oatmeal and Grits",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/butter_grits.webp"
+  },
+  "Flavored Oats": {
+    "price": "$4.20/pc",
+    "ref_name": "flavored_oats",
+    "category": "Rollbacks",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/flavored_oats.webp"
+  },
+  "Chocochip waffles": {
+    "price": "$4.20/pc",
+    "ref_name": "chocochip_waffles",
+    "category": "Rollbacks",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/chocochip_waffles.webp"
+  }
+}

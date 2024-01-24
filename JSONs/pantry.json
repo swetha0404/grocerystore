@@ -1,0 +1,155 @@
+{
+  "Chickpeas": {
+    "price": "$2.10/pc",
+    "ref_name": "canned_chickpeas",
+    "category": "Canned goods",
+    "rating": 4.1,
+    "stock": 16,
+    "cart": 0,
+    "img_path": "Images/canned_chickpeas.webp"
+  },
+  "Black Beans": {
+    "price": "$4.20/pc",
+    "ref_name": "canned_black_beans",
+    "category": "Canned goods",
+    "rating": 4.1,
+    "stock": 18,
+    "cart": 0,
+    "img_path": "Images/canned_black_beans.webp"
+  },
+  "Pinto Beans": {
+    "price": "$4.20/pc",
+    "ref_name": "canned_pinto_beans",
+    "category": "Canned goods",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/canned_pinto_beans.webp"
+  },
+  "Corn": {
+    "price": "$2.10/pc",
+    "ref_name": "canned_corn",
+    "category": "Canned vegetables",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/canned_corn.webp"
+  },
+  "Spinach": {
+    "price": "$2.10/pc",
+    "ref_name": "canned_spinach",
+    "category": "Canned vegetables",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/canned_spinach.webp"
+  },
+  "Diced Tomato": {
+    "price": "$4.20/pc",
+    "ref_name": "diced_tomato",
+    "category": "Canned vegetables",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/canned_diced_tomato.webp"
+  },
+  "Mustard": {
+    "price": "$2.10/pc",
+    "ref_name": "mustard",
+    "category": "Condiments",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/mustard.webp"
+  },
+  "Ketchup": {
+    "price": "$2.10/pc",
+    "ref_name": "ketchup",
+    "category": "Condiments",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/ketchup.webp"
+  },
+  "Relish": {
+    "price": "$2.10/pc",
+    "ref_name": "relish",
+    "category": "Condiments",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/relish.webp"
+  },
+  "Peanut butter": {
+    "price": "$2.10/pc",
+    "ref_name": "creamy_peanut_butter",
+    "category": "Peanut butter & spread",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/creamy_peanut_butter.webp"
+  },
+  "Peanut butter(chunky)": {
+    "price": "$2.10/pc",
+    "ref_name": "chunky_peanut_butter",
+    "category": "Peanut butter & spread",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/chunky_peanut_butter.webp"
+  },
+  "Hazelnut spread": {
+    "price": "$4.20/pc",
+    "ref_name": "hazelnut_spread",
+    "category": "Peanut butter & spread",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/hazelnut_spread.webp"
+  },
+  "Penne Pasta": {
+    "price": "$4.20/pc",
+    "ref_name": "penne_pasta",
+    "category": "Pasta & Pizza",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/penne_pasta.webp"
+  },
+  "Elbows Pasta": {
+    "price": "$4.20/pc",
+    "ref_name": "elbow_pasta",
+    "category": "Pasta & Pizza",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/elbows_pasta.webp"
+  },
+  "Pizza crust": {
+    "price": "$4.20/pc",
+    "ref_name": "pizza_crust",
+    "category": "Pasta & Pizza",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/pizza_crust.webp"
+  },
+  "Canned vegetables": {
+    "price": "$4.20/pc",
+    "ref_name": "canned_mixed_vegetables",
+    "category": "Rollbacks",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/canned_mix_veg.webp"
+  },
+  "Tomato Sauce": {
+    "price": "$4.20/pc",
+    "ref_name": "tomato_sauce",
+    "category": "Rollbacks",
+    "rating": 4.1,
+    "stock": 20,
+    "cart": 0,
+    "img_path": "Images/tomato_sauce.webp"
+  }
+}
