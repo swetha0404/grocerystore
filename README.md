@@ -12,6 +12,15 @@ A web-based shopping application for a grocery store that demonstrates fundament
 - Fonts & Icons: Google Fonts ✒️, Custom Icons 🖼️
 - XML Inventory Management 📄
 
+---
+
+## 📋 Screenshots of the Application
+![screenshot](./screenshots/ss1.png)
+
+![screenshot](./screenshots/ss2.png)
+
+![screenshot](./screenshots/ss3.png)
+---
 ## ✨ Features
 
 1. User Authentication: 🔑
